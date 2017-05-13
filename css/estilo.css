@@ -1,0 +1,210 @@
+body{overflow-x: hidden; background-color:#ccc;}
+p{font-size:40px;}
+header{background-color:#000;height:50px; color:#fff; padding:15px;}
+header .notificacao{float:right; background-color:#37709E; padding:15px; height:50px; margin-top:-15px; width:130px;}
+header li{float:rigth; float: left; padding:3px; list-style:none;}
+header li{float:right;}
+header a{color:#fff;}
+header a:hover{color:#fff;}
+body .topo{height:100px;}
+body .pesquisa{width:600px;height:70px; border:solid 1px #fff; margin-left:265px; font-size:18px; color:#fff; background:none; position:absolute;margin-top:-400px;}
+body .bt-pesquisar{width:600px;height:70px; border:solid 1px #fff; margin-left:265px; font-size:18px; color:#fff; background:none; position:absolute;margin-top:-300px;}
+body .bt-pesquisar:hover{background-color:#fff; transition:0.6s;color:#777;}
+body .bt-pesquisar{transition:0.6s;}
+a{color:#fff; text-decoration:none;}
+a:active{color:#fff;}
+.fundo-menu{background-color:#1A1A1A; width:100%; z-index:5000;position:absolute; display:none; height:600px;}
+.sub-opcao{height:310px;margin-top:100px;}
+::-webkit-input-placeholder { color:#fff;}
+:-moz-placeholder { /* Firefox 18- */color: #fff;}
+ ::-moz-placeholder {  /* Firefox 19+ */color: #fff;}
+ :-ms-input-placeholder { color: #fff; }
+.bt-pesquisar{margin-top:-900px; position:absolute; width:300px; border:solid 1px red;}
+body .logo{width:100px; margin:250px; font-size:200px; margin-top:10px; color:#fff;}
+body .slogan{width:600px; margin:440px; font-family:verdana; font-size:30px; margin-top:-300px; color:#fff;}
+body .banner{ background-color:#4682b4;}
+footer{background-color:#4682b4; margin-top:0; height:320px; position:relative;}
+footer .container .menu ul li{color:#fff;}
+.container .box-produtos{ width:1200px;}
+.menu-mobile{border:solid 1px #fff;color:#fff; cursor:pointer; margin-top:-25px; position:absolute; margin-left:150px; padding:1px;width:40px; border:solid 1px #fff;background:none;}
+.fundo-menu .sub-opcao .fechar{color:#fff; font-size:30px; float:right; margin-top:50px; cursor:pointer;}
+.fechar2{ cursor:pointer;position:absolute;z-index:3000; margin-left:1100px; margin-top:-10px;}
+.menu{margin-top:0px; width:200px;}
+.menu ul li{padding:5px; font-size:16px;color:#666;width:200px;}
+.menu ul li:hover{color:#fff;}
+.menu ul li hover{color:red;}
+.menu .informações{margin-left:200px; margin-top:-320px;position:absolute;}
+.menu .nossaloja{margin-left:450px; margin-top:-320px;position:absolute;}
+.sub-opcao .newsletter{border:solid 1px #fff; width:400px; margin:10px; position:absolute;margin-left:740px; margin-top:-290px; text-align:center;}
+.sub-opcao .newsletter .campo-newsletter{border:solid 1px #fff;width:270px; height:50px; background-color:#1A1A1A; color:#fff;}
+
+.sub-opcao .newsletter .bt-newsletter{ width:270px; height:50px; border:none; background-color:#4682b4; color:#fff;}
+.sub-opcao .newsletter .bt-newsletter:hover{ background-color:green; color:#fff; transition:0.6s;}
+.sub-opcao .newsletter .bt-newsletter{transition:0.6s;}
+
+.sub-opcao .menu a:hover{color:#fff;}
+.sub-opcao .menu a:{text-decoration:none;}
+.menu .sub2{margin-left:150px;}
+.responsive-sub{border:solid 1px red; margin-top}
+.box .item-box{width:300px; height:300px; border:solid 1px #d3d3d3; background-color:#cecece; margin:10px; }
+.box .item-box .descricao{width:100%; height:100px;z-index:3000; opacity:0.80; background-color:#4682b4; margin-top:-100px;position:relative; float:left; display:none;}
+.box .item-box:hover .descricao{display:block;transition:0.6s;color:#fff; text-align:center; padding:10px;}
+.box .conteudo{width:100%; display:none; height:445px;background-color:#F2F2F2;}
+.conteudo .box-rigth{ width:530px; height:200px; margin:10px;}
+.conteudo .bt-adicionarcarrinho{border:solid 1px red; width:200px; padding:10px;text-align:center; cursor:pointer;}
+@media  screen and (max-width:500px){.box .item-box{width:100%; border:solid 1px red;}}
+@media  screen and (max-width:700px){
+.box .item-box{width:100%; border:solid 1px red;}}
+@media  screen and (max-width:800px){.box .item-box{width:100%; border:solid 1px red;}}
+@media  screen and (max-width:850px){.box .item-box{width:100%; border:solid 1px red;}}
+@media  screen and (max-width:1000px){.box .item-box{width:100%; border:solid 1px red;}}
+.container .box{width:100%;margin:auto;}
+/* Popriedades css do form de tela de login*/
+.caixa-loguim{width:700px; height:600px; margin:auto; margin-top:25px; background-color:#ccc;}
+.container .row .col-xs-12 .form-login-admin{width:350px;margin: auto; margin-top:150px; height:300px;}
+.container .row .col-xs-12 .form-login-admin .campo{width:350px; height:50px;}
+.container .row .col-xs-12 .form-login-admin input[type="text"],input[type="password"]:focus{outline:none;}
+.container .row .col-xs-12 .form-login-admin .bt-login-adm{width:350px; height:50px; border:none; background-color:#8181f7;color:#fff;}
+/* Aqui são os breakpointes para deixar o form e campos responsivos*/
+@media  screen and (max-width:720px){.container .row .col-xs-12 .form-login-admin center{width:300px;}.container .row .col-xs-12 .form-login-admin center{width:300px;}}
+@media  screen and (max-width:720px){.container .row .col-xs-12 .form-login-admin center{width:300px;}.container .row .col-xs-12 .form-login-admin center{width:300px;}}
+@media  screen and (max-width:720px){.container .row .col-xs-12 .form-login-admin center{width:250px;}.container .row .col-xs-12 .form-login-admin center{width:250px;}}
+@media  screen and (max-width:720px){.container .row .col-xs-12 .form-login-admin center{width:250px;}.container .row .col-xs-12 .form-login-admin center{width:250px;}}
+@media  screen and (max-width:720px){.container .row .col-xs-12 .form-login-admin .campo{width:300px;}.container .row .col-xs-12 .form-login-admin .bt-login-adm{width:300px;}}
+@media  screen and (max-width:420px){.container .row .col-xs-12 .form-login-admin .campo{width:300px;}.container .row .col-xs-12 .form-login-admin .bt-login-adm{width:300px;}}
+@media  screen and (max-width:320px){.container .row .col-xs-12 .form-login-admin .campo{width:280px;}.container .row .col-xs-12 .form-login-admin .bt-login-adm{width:280px;}}
+/*Fim do codigo responsivo*/
+.menu-lateral{width:300px; background-color:#000;height:100%; color:#fff;z-index:999;}
+.menu-lateral .bt-menu-lateral{width:100%; height:40px; background-color:#777;padding:1px; font-size:20px; text-align:center; padding:5px;}
+.menu-lateral .bt-menu-sub{width:100%; height:40px; background-color:#000;padding:1px;}
+.menu-lateral .bt-menu-sub a{text-decoration:none;color:#fff;}
+.menu-lateral .bt-menu-sub:hover{background-color:yellow; transition:0.3s;color:#000; font-size:20px; padding:3px; list-style:underline;}
+.menu-lateral .bt-menu-lateral2{width:100%; height:40px; background-color:#777;padding:1px; font-size:20px; text-align:center; padding:5px;}
+.menu-lateral .bt-menu-sub2{width:100%; height:40px; background-color:#000;padding:1px;}
+.menu-lateral .bt-menu-sub2:hover{background-color:yellow; transition:0.3s;color:#000; font-size:20px; padding:3px; list-style:underline;}
+.menu-lateral .bt-menu-lateral3{width:100%; height:40px; background-color:#777;padding:1px; font-size:20px; text-align:center; padding:5px;}
+.menu-lateral .bt-menu-sub3{width:100%; height:40px; background-color:#000;padding:1px;}
+.menu-lateral .bt-menu-sub3:hover{background-color:yellow; transition:0.3s;color:#000; font-size:20px; padding:3px; list-style:underline;}
+.bt-cadastrar-preco{border:none; height:40px; width:600px; margin-top:20px; background-color:#37709E; color:#fff;cursor:pointer; padding:10px;text-align:center;}
+.fundo-preto{position:absolute;width:-0px; height:900px;;margin-top:-200px;background-color:#37709E;z-index:-2;}
+.form-configurar-produto{margin-top:200px;display:none;}
+.campo-configurar-produto{background:none; border:solid 1px #ccc; width:300px; height:50px;}
+.bt-salvar{width:300px; height:50px; background-color:green; color:#fff;border:none;}
+.campo-produto{background:none; border:solid 1px #ccc; width:600px; height:50px;}
+
+
+.upload-wrapper{cursor:pointer;}
+.upload-file{cursor:pointer;position:absolute;}
+.upload-button{cursor:pointer;height:30px; width:30px;}
+
+.upload-wrapper{cursor:pointer; display:inline-block; position:relative; overflow:hidden;}
+.upload-file{ width:120px;height:120px;cursor:pointer; position:absolute; filter:alpha(opacity=70); -moz-opacity:0.7;opacity:0.0; border:solid 1px red; margin-left:480px; margin-top:20px;}
+.upload-button{cursor:pointer; height:30px; width:30px;}
+
+.texto{border:solid 1px red;}
+.form-configuracao-produto{display:none;z-index:3;}
+hr{z-index:-1;}
+
+.bt-cadastrar{border:none; height:40px; width:600px; margin-top:20px; background-color:green; color:#fff;cursor:pointer; padding:10px;text-align:center;}
+.bt-cadastrar a:hover{text-decoration:none;}
+.container .adm header{ background-color:#cecece;}
+.container  .campo{width:600px; height:50px; background-color:#ccc;}
+.container  .prazo{width:100px; height:50px; background-color:#ccc;}
+.container  .preco{width:150px; height:50px; background-color:#ccc;}
+.login .campo{width:300px; border:solid 1px #ccc; background-color:#fff;}
+.cadastro .campo{width:300px; border:solid 1px #ccc; background-color:#fff;}
+.novocliente{width:200px; height:40px; margin-left:510px; margin-top:-389px; background-color:#fff; text-align:center; padding:10px; font-size:16px; cursor:pointer;}
+.form-cadastro{display:none;}
+.login .btn-primary{width:300px;}
+.cadastro .btn-primary{width:300px;}
+.red{z-index:2000;width:100%; position:absolute; height:100%;margin-top:-662px;left:300px;}
+.red .conteudo{margin-top:-1000px; margin-left:10px; height:500px;}
+
+.red .conteudo .row .div .logo{font-size:150px; margin-left:220px;}
+.container .logo-adm{font-size:150px; left:300px; width:650px; margin-left:400px; margin-top:-500px;}
+.painelmobile{border:solid 1px red; display:none;}
+.conteudomobile{border:solid 1px red; display:none;}
+button{border:solid 1px #fff; background:none;}
+@media only screen and (max-width: 550px){
+.menu-lateral-mobile .bt-menu-sub-mobile{width:100%; background-color:#000; display:none;}
+.painelmobile .menu-lateral-mobile{width:100%; background-color:#000;height:100%; color:#fff;z-index:5000;}
+.painelmobile{ display:block; margin-top:-610px;height:100px;z-index:3000; width:100%; position:absolute; color:#fff;}
+.menu-lateral{width:300px;height:100%; color:#fff;z-index:999;}	
+.conteudomobile{display:block; margin-top:-511px;height:100%;z-index:3000; width:100%; position:absolute; background-color:red; color:#fff;}}}
+.box-rigth .text-descricão{text-align:justify;}
+.btn-info{margin-top:100px; width:200px;border:none; background-color:red; padding:10px;}
+
+.container .dados{width:900px;}
+table{width:100%; text-align:center; }
+table td{padding:10px;width:300px;}
+.icone-produto{width:50px;float:right; }
+.editar{cursor:pointer; margin-left:30px; float:left;}
+.excluir{cursor:pointer; margin-left:880px; float:left; margin-top:50px; position:absolute;}
+.salvar{cursor:pointer; margin-left:905px; float:left; margin-top:51px; position:absolute;}
+
+.box .icon{ width:350px; margin:10px; margin-left:20px;}
+
+.menu-carrossel {
+	float: left;
+	clear: both;
+	width: 100%;
+	text-align: center;
+}
+
+.box-blog{ margin:auto;}
+.box-blog .blog{width:250px; height:250px; margin:20px;}
+
+body .info{margin-top:-10px;}
+.login{width:500px; height:400px; margin:auto; background-color:#fff;margin-top:100px; z-index:30000; display:none;position:absolute; margin-left:320px; }
+.cadastro{width:800px; height:600px; margin:auto; background-color:#fff;margin-top:-1px; z-index:30000; display:none;position:absolute; margin-left:180px; }
+.fundo{width:100%; background-color:#000; z-index:20000;position:absolute; height:1880px; margin-top:-100px;display:none;opacity:0.70;}
+
+.container-conta .menu{width:100%; background-color:#666;}
+.container-conta .menu .bt{text-align:center;color:#fff; height:40px; padding:15x; font-size:16px; background-color:#666; cursor:pointer;}
+.container-conta .menu .bt a{text-decoration:none;}
+.container-conta .menu .bt:hover{background-color:#000; color:yellow;}
+.container-conta .conteudo{width:1000px; margin-top:-300px;z-index:3000; position:absolute;margin:auto;}
+.container-conta .container{}
+
+.pedidos{display:none; margin-top:50px;}
+.configuracao{display:none;margin-top:100px;}
+.monitoramento{display:none;margin-top:100px;}
+
+.relatorios{}
+.relatorios {width:200px;text-align:center; font-size:20px; color:#fff; }
+table{color:#fff;}
+tr{border:none; background-color:#666;}
+tr td a {color:#fff;}
+tr td a:hover{color:#fff;}
+	
+.topo-page-produtos{height:1000px; width:100%;  background-color:#fff;}	
+	
+.topo-page-produtos .container{}
+ .topo-page-produtos .container .box-produtos{width:250px; margin:10px;height:300px; margin-top:60px; border:solid 1px #ccc; float:left;}
+
+ .topo-page-produtos .container .box-produtos{transition:0.6;}
+ .topo-page-produtos .container .box-produtos .descricao-produtos{width:200px; height:60px; margin:auto; margin-top:130px; background-color:green; padding:20px; text-align:center;  color:#fff; border:solid 1px green; display:none;z-index:9000; cursor:pointer;}
+
+ .topo-page-produtos .container .box-produtos .preco-produto{margin-top:300px; margin-left:30px;}
+ .container .banner-promocao{border:solid 1px red; width:1000px; height:300px;}
+	
+	
+.container .btn-comprar-conta{border:solid 1px green; width:390px; height:40px; padding:10px; color:green; cursor:pointer;}
+.container .btn-comprar-conta a {text-decoration:none;}
+
+.container .bt-etapa{border:solid 1px green; width:600px; padding:10px; height:40px; color:green; cursor:pointer;}
+
+#campo-produto-1{display:none;}
+#campo-produto-2{display:none;}
+#campo-produto-3{display:none;}
+#campo-produto-4{display:none;}
+#campo-produto-5{display:none;}
+
+#campo-produto-opcao{border:solid 1px red; width:250px;}
+
+
+
+
+
+
+
