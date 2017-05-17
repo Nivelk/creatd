@@ -1,0 +1,23 @@
+<!doctype html>
+<html ng-app="app">
+	<head>
+		<meta charset="utf-8">	
+		<script src="angular.js"></script>
+			<script>
+				angular.module("app",[]);
+				angular.module("app").controller("controlhe",function($scope){
+					$scope.mensagem = "Hello World";
+					$scope.contatos = [
+						{nome:Flavio, telefone:9999-9999}	
+					];		
+				});		
+			</script>		
+	</head>
+		<body>
+			<div ng-controller="controlhe">
+				{{mensagem}}
+						
+			</div>
+				
+		</body>
+</html>		
